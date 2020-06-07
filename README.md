@@ -12,9 +12,9 @@
 ```c++
 #include "LedControl.h"
 
-int dataPin = 33; // 33 is IO33 map to Pin0 on board       Pin0 --->IO33
-int clockPin = 26; // 21 is IO21 map to Pin1 on board      Pin1 --->IO32
-int csPin = 32; // 19 is IO19 map to Pin14 on board        Pin8 --->IO26 
+int dataPin = 33; // 33 is IO33 map to Pin0 on board       Pin0 ---> IO33
+int clockPin = 26; // 21 is IO21 map to Pin1 on board      Pin8 ---> IO26
+int csPin = 32; // 19 is IO19 map to Pin14 on board        Pin1 ---> IO32 
 
 LedControl lc = LedControl(dataPin,clockPin,csPin,4);
 
